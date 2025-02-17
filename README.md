@@ -1,43 +1,42 @@
-# Visualisasi Customer Satisfaction in Airline 📊 - ![Airflow](https://img.shields.io/badge/Airflow-17B3A3?style=for-the-badge&logo=Apache-Airflow&logoColor=white) ![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=Kibana&logoColor=white) ![Elastic_search](https://img.shields.io/badge/Elastic_Search-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+# Customer Satisfaction in Airline Visualization 📊 - ![Airflow](https://img.shields.io/badge/Airflow-17B3A3?style=for-the-badge&logo=Apache-Airflow&logoColor=white) ![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=Kibana&logoColor=white) ![Elastic_search](https://img.shields.io/badge/Elastic_Search-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
-Repositori ini berisi proyek visualisasi data menggunakan Apache Airflow dan Kibana. Proyek ini bertujuan untuk mengautomasi alur kerja pengolahan data dan menyajikannya secara visual menggunakan Kibana. Repositori ini mencakup file Python yang menjelaskan proses secara menyeluruh, mulai dari pengaturan DAG di Airflow, pengindexan data di Elastic Search hingga visualisasi data di Kibana.
+This repository contains a data visualization project using Apache Airflow and Kibana. The goal of this project is to automate the data processing workflow and present it visually using Kibana. This repository includes Python files that explain the entire process, from setting up DAGs in Airflow, indexing data in Elasticsearch, to visualizing data in Kibana.
 
 ---
-## Link Terkait Project ⛓️‍💥
+## Related Project Links ⛓️‍💥
 
 - [Dataset](https://www.kaggle.com/datasets/yakhyojon/customer-satisfaction-in-airline)
 
 ---
 ## Project Overview 📝
 
-Dalam proyek ini, saya menggunakan Apache Airflow untuk mengautomasi proses ETL (Extract, Transform, Load) dan menggunakan Kibana untuk visualisasi data yang telah diproses. Beberapa langkah utama yang dicakup dalam proyek ini adalah:
+In this project, I use Apache Airflow to automate the ETL (Extract, Transform, Load) process and Kibana for visualizing the processed data. Some of the key steps covered in this project include:
 
-1. **Pengaturan Airflow**:
-    - Mengonfigurasi dan menjalankan Airflow untuk mengelola alur kerja.
+1. **Airflow Setup**:
+    - Configuring and running Airflow to manage the workflow.
 
-2. **Pengembangan DAG**:
-    - Membangun DAG (Directed Acyclic Graph) untuk mendefinisikan alur kerja data.
+2. **DAG Development**:
+    - Building DAGs (Directed Acyclic Graphs) to define the data workflow.
 
-3. **Transformasi Data**:
-    - Melakukan transformasi data yang diperlukan sebelum visualisasi.
+3. **Data Transformation**:
+    - Performing necessary data transformations before visualization.
 
-4. **Visualisasi dengan Kibana**:
-    - Menggunakan Kibana untuk menyajikan data dalam format yang dapat dianalisis secara visual.
+4. **Visualization with Kibana**:
+    - Using Kibana to present data in a visually analyzable format.
 
 ---
-## Metode yang Digunakan 🛠️
+## Methods Used 🛠️
 
 - ETL (Extract, Transform, Load)
-- Visualisasi Data
-- Automasi Proses
+- Data Visualization
+- Process Automation
 
 ---
-## Latar Belakang Masalah :
-Industri penerbangan mengalami dampak signifikan akibat krisis global dalam beberapa tahun terakhir. Namun, lalu lintas penumpang pada tahun 2022 telah mencapai sekitar 76,9% dari tingkat sebelum krisis, dan diperkirakan akan pulih sepenuhnya pada tahun 2025. Pemulihan ini terjadi dalam konteks pertumbuhan pasar yang kuat dan meningkatnya persaingan di industri penerbangan.
+## Problem Background:
+The aviation industry has been significantly impacted by the global crisis in recent years. However, passenger traffic in 2022 reached about 76.9% of pre-crisis levels, and it is expected to fully recover by 2025. This recovery occurs amidst strong market growth and increasing competition in the aviation industry.
 
-Dalam lingkungan bisnis yang semakin kompetitif, kepuasan dan loyalitas pelanggan menjadi faktor kunci dalam menjaga keberlanjutan bisnis maskapai. Pelanggan yang puas tidak hanya cenderung untuk kembali menggunakan layanan maskapai yang sama, tetapi juga dapat memberikan rekomendasi positif yang berkontribusi pada citra dan profitabilitas perusahaan. Oleh karena itu, maskapai penerbangan harus fokus pada peningkatan pengalaman pelanggan melalui layanan yang lebih baik, peningkatan kenyamanan, serta efisiensi dalam operasional penerbangan.
+In an increasingly competitive business environment, customer satisfaction and loyalty become key factors in maintaining the sustainability of airline businesses. Satisfied customers are not only more likely to return to the same airline, but also provide positive recommendations that contribute to the company's image and profitability. Therefore, airlines must focus on improving the customer experience through better service, enhanced comfort, and operational efficiency.
 
-Dengan memahami kebutuhan dan ekspektasi pelanggan, maskapai dapat merancang strategi layanan yang lebih efektif untuk meningkatkan kepuasan dan loyalitas pelanggan. Hal ini akan memberikan keuntungan kompetitif dalam industri yang terus berkembang, sekaligus memastikan pertumbuhan jangka panjang di tengah meningkatnya persaingan pasar.
+By understanding customer needs and expectations, airlines can design more effective service strategies to improve customer satisfaction and loyalty. This will provide a competitive advantage in the ever-evolving industry, ensuring long-term growth amidst increasing market competition.
 
 ---
-
